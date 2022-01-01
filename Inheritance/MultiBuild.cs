@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    class MultiBuild:Build
+    sealed class MultiBuild:Build
     {
         int floor;
 
